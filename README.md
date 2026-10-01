@@ -25,9 +25,20 @@ This work addresses:
 
 The associated research record does not claim that the hydrated-DPPC Lβ′/LβI boundary has been assigned a termination coordinate. The public archive is structured to preserve that distinction rather than overstate a result.
 
-## Reproduce the archived package
+## Executable reconstruction subset
 
-The complete reproducibility package is distributed through Mendeley Data rather than duplicated here.
+For lightweight inspection without downloading the complete archive, this repository mirrors a small executable subset from the canonical Mendeley Data package:
+
+- [reconstruction/data/source_rows.csv](reconstruction/data/source_rows.csv)
+- [reconstruction/run_analysis.py](reconstruction/run_analysis.py)
+- [reconstruction/verify_reconstruction.py](reconstruction/verify_reconstruction.py)
+- [reconstruction/README.md](reconstruction/README.md)
+
+The mirrored reconstruction regenerates the archived analysis outputs and the verification script completes **47 numerical regression checks**. These are regression checks on reconstructed calculations, not 47 independent scientific validations.
+
+## Reproduce the complete archived package
+
+The complete reproducibility package remains distributed through Mendeley Data.
 
 Recommended environment:
 
@@ -36,7 +47,7 @@ Recommended environment:
 - SciPy 1.17.0
 - pytest 9.1.1
 
-See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the public reproduction map.
+See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the full public reproduction map.
 
 ## Repository boundary
 

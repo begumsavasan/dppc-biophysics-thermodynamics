@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the repository and the related archived research output."
+title: "DPPC Biophysics & Thermodynamics"
+type: software
+authors:
+  - family-names: "Savaşan Asgarlı"
+    given-names: "Begüm"
+    orcid: "https://orcid.org/0000-0003-4809-7115"
+repository-code: "https://github.com/begumsavasan/dppc-biophysics-thermodynamics"
+identifiers:
+  - type: doi
+    value: "10.17632/r97b37bfjg.1"
+    description: "Related Mendeley Data archive"

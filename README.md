@@ -1,53 +1,61 @@
 # DPPC Biophysics & Thermodynamics
 
-Public companion repository for reproducible work on hydrated DPPC membrane phase behavior, thermodynamic structure, and pressure-temperature analysis.
+Public companion repository for reproducible work on hydrated DPPC membrane phase behavior, thermodynamic structure, and pressure–temperature analysis.
 
-## Public Data / Code Archive
+## Archived research output
 
-Mendeley Data DOI: https://doi.org/10.17632/r97b37bfjg.1
+**Mendeley Data, Version 1**  
+DOI: https://doi.org/10.17632/r97b37bfjg.1
 
-## Scope
+The archived package was published on 17 September 2026 and contains research-case records, evidence mapping, provenance-labelled transcribed source-table inputs, dated reconstruction code and outputs, a preserved historical implementation/test suite, and a DPPC source audit.
 
-This repository is designed as a public-facing reproducibility layer for work involving:
+The archive reports **no new experimental measurements**. Its case records should not be interpreted as independent experiments or independent validations.
 
-- DPPC membrane phase behavior
-- thermodynamic consistency checks
-- pressure-temperature relationships
+## Scientific scope
+
+This work addresses:
+
+- hydrated-DPPC membrane phase behavior
+- thermodynamic consistency and pressure–temperature relationships
 - phase-boundary geometry
-- equation-based analysis
-- numerical reconstruction and figure generation
+- equation-based and numerical analysis
+- estimator and null-model auditing
 - provenance-aware scientific computing
+- reproducible reconstruction of archived calculations
 
-## Repository Boundary
+The associated research record does not claim that the hydrated-DPPC Lβ′/LβI boundary has been assigned a termination coordinate. The public archive is structured to preserve that distinction rather than overstate a result.
 
-This is **not** the private manuscript or reviewer repository.
+## Reproduce the archived package
 
-It will not contain:
+The complete reproducibility package is distributed through Mendeley Data rather than duplicated here.
+
+Recommended environment:
+
+- Python 3.12
+- NumPy 2.3.5
+- SciPy 1.17.0
+- pytest 9.1.1
+
+See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the public reproduction map.
+
+## Repository boundary
+
+This repository is a **public-facing companion**, not the private manuscript/reviewer repository.
+
+It does not contain:
 
 - unpublished manuscript text
 - reviewer correspondence
 - confidential submission material
-- restricted source-publication files
+- restricted source-publication PDFs
 - private collaboration records
 - unreleased intellectual property
 
-Only material already suitable for open release, or newly prepared public-safe reproducibility material, will be added here.
+Public material is limited to documentation and content already suitable for open release.
 
-## Planned Public Materials
+## Citation
 
-- documented analysis scripts
-- reproducible notebooks or command-line workflows
-- figure-generation code
-- public-safe data tables
-- equation and model notes
-- provenance and citation documentation
-- links between code, data, and published or archived research outputs
-
-## Repository Status
-
-**Public scaffold established.**
-
-The public release layer is being separated from the private research and manuscript-development repositories before code and data are copied here.
+See [CITATION.cff](CITATION.cff).
 
 ## Researcher
 
